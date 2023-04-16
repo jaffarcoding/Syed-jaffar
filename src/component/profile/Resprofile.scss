@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 669px) {
+    .profile{
+       .profile-hading{
+            >h2{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 457px) {
+    .profile{
+        .profile-hading{
+            width: 100%;
+            >h2{
+                font-size: 1.5rem;
+                padding: 10px;
+            }
+        }
+    }
+}

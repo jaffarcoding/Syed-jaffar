@@ -1,0 +1,246 @@
+.projects{
+    width: 100%;
+    padding-top: 10vmax;
+    background-color:  rgb(6, 6, 80);
+    .project-container{
+        border-radius: 300px 300px 0 0;
+        min-height: inherit;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 5vmax;
+        flex-direction: column;
+        >h3{
+            margin-left: 20%;
+            color: rgb(255, 255, 255);
+            background-color: blue;
+            padding: 2vmax 4vmax;
+            display: flex;
+            border-radius: 100px;
+            align-items: center;
+            justify-content: center;
+            transform: translate(-50%, -100vh);
+            animation: projectHeadingAnimation 1s ease-in-out forwards;    
+            >svg{
+                margin-right: 1rem;
+                font-size: 2rem;
+            }    
+        }
+        overflow-x: hidden;
+       .project-cards-1{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 8rem;
+            margin-top: 5rem;
+            transform: translate(-100%, 0vh);
+                animation: projectformAnimation1 1s ease-in-out forwards;
+            .first-items{
+                width: 120%;
+                height: 400px;
+                position: relative;
+                
+                background-image: url('../../images/awesome.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 10px rgb(160, 160, 245);
+                animation: slider 20s infinite linear;
+            }   
+            .second-items{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                >h1{
+                    margin: 0 auto 0 auto;
+                }
+                >h3{
+                    margin: 5px auto 0 auto;
+                }
+                >p{
+                    padding: 2rem;
+                }
+                >a
+                >button{
+                    margin: 1rem auto 0  2.3rem;
+                    height: 2.5rem;
+                    width: 80%;
+                    background-color: rgb(6, 6, 80);
+                    color: white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+                    transition: all 0.5s;
+                    font-size: 1.2rem;
+                    &:hover{
+                        cursor: pointer;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+        .project-cards-2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 8rem;
+            margin-top: 5rem;
+            transform: translate(-100%, 0vh);
+                animation: projectformAnimation1 1s ease-in-out forwards;
+            .first-items{
+                width: 120%;
+                height: 400px;
+                position: relative;
+                background-image: url('../../images/awesome.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 10px rgb(160, 160, 245);
+                animation: slider2 20s infinite linear;
+            }   
+            .second-items{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                >h1{
+                    margin: 0 auto 0 auto;
+                }
+                >h3{
+                    margin: 5px auto 0 auto;
+                }
+                >p{
+                    padding: 2rem;
+                }
+                >a
+                >button{
+                    margin: 1rem auto 0  2.3rem;
+                    height: 2.5rem;
+                    width: 80%;
+                    background-color: rgb(6, 6, 80);
+                    color: white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+                    transition: all 0.5s;
+                    font-size: 1.2rem;
+                    &:hover{
+                        cursor: pointer;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+        .project-cards-3{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 8rem;
+            margin-top: 5rem;
+            transform: translate(-100%, 0vh);
+                animation: projectformAnimation1 1s ease-in-out forwards;
+            .first-items{
+                width: 120%;
+                height: 400px;
+                position: relative;
+                background-image: url('../../images/awesome.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 10px rgb(160, 160, 245);
+                animation: slider3 20s infinite linear;
+            }   
+            .second-items{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                >h1{
+                    margin: 0 auto 0 auto;
+                }
+                >h3{
+                    margin: 5px auto 0 auto;
+                }
+                >p{
+                    padding: 2rem;
+                }
+                >a
+                >button{
+                    margin: 1rem auto 0  2.3rem;
+                    height: 2.5rem;
+                    width: 80%;
+                    background-color: rgb(6, 6, 80);
+                    color: white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+                    transition: all 0.5s;
+                    font-size: 1.2rem;
+                    &:hover{
+                        cursor: pointer;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+    .for-more{
+        margin-top: 5rem;
+        >a{
+            text-decoration: none;
+            color: blue;
+            transition: all 0.5s;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+    
+}
+@keyframes slider{
+    0%{
+        background-image: url('../../images/aweprofile.png');
+    }
+    35%{
+        background-image: url('../../images/awesome.png');
+    }
+    70%{
+        background-image: url('../../images/login.png');
+    }
+    100%{
+        background-image: url('../../images/payment.png');
+    }
+}
+@keyframes slider2{
+    0%{
+        background-image: url('../../images/crypto.png');
+    }
+    35%{
+        background-image: url('../../images/cryptos.png');
+    }
+    70%{
+        background-image: url('../../images/crypto-grap.png');
+    }
+}
+@keyframes slider3{
+    0%{
+        background-image: url('../../images/por.png');
+    }
+    35%{
+        background-image: url('../../images/porprojects.png');
+    }
+    70%{
+        background-image: url('../../images/porskill.png');
+    }
+    100%{
+        background-image: url('../../images/portadmin.png');
+    }
+}
+@keyframes projectHeadingAnimation {
+    to {
+      transform: translate(-50%, -50%);
+    }
+  }

@@ -1,0 +1,21 @@
+.scrollup{
+    position: fixed;
+    right: 2.5rem;
+    bottom: -20rem;
+    opacity: 0.9;
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    z-index: 1;
+    transition: 0.5s;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+    >svg{
+        font-size: 1.8rem;
+        color: black;
+    }
+    &:hover{
+        box-shadow: none;
+    }
+}
+.show{
+    bottom: 3rem;
+}

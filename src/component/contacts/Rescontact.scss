@@ -1,0 +1,42 @@
+@media screen and (max-width: 1061px) {
+    .contact{
+        height: 120vh;
+        .contact-box{
+            margin-top: 10%;
+            .contact-content{
+                margin-top: 10%;
+                    .Main-form{
+                    >input{
+                        width: 80%;
+                    }
+                    >textarea{
+                        width: 80%;
+                    }
+                    }
+            }
+        }
+    }
+}
+@media screen and (max-width: 516px) {
+    .contact{
+        .contact-box{
+            >h1{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+// responsive contact height
+@media screen and (max-height:  413px) {
+    .contact{
+        height: 250vh;
+        .contact-box{
+            >h1{
+                margin-top: -35%;
+            }
+            background-color: aqua;
+            height: 200vh;
+        }
+    }
+}

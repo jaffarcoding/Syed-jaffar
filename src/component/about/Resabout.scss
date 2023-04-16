@@ -1,0 +1,171 @@
+
+@media screen and (max-width: 1157px) {
+    .section{
+        .grid{
+            display: flex;
+            margin-left: 2px;
+        }
+    }
+}
+@media screen and (max-width: 1100px) {
+    .section{
+        height: 210vh;
+        display: flex;
+        justify-content: center;
+        min-height: 160vh;
+        .section-title{
+            font-size: 5rem;
+        }
+        .conatiner{
+            gap: 5rem;
+            display: flex;
+            flex-direction: column;
+            >img{
+                height: 20rem;
+                margin-top: 2rem;
+            }
+            .about-data{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 8%;
+                >a>button{
+                    margin-left: -10%;
+                }
+            }
+        }
+    }
+    .about-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+        flex-direction: column;
+        width: 100%;
+        .about_box{
+            border-radius: 30px;
+            background-color: white;
+            width: 50%;
+            text-align: center;
+            padding: 3rem 4rem;
+            margin-top: 1rem;
+            .About-title{
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .about-data{
+        height: 70vh;
+         display: flex;
+         flex-direction: column;
+        .about-discription{
+            margin-top: -7rem;
+            display: inline-flex;
+            padding: 12rem;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            margin-left: 3%;
+            margin-top: -12rem;
+        }
+        .btn-2{
+            margin-top: 2rem;
+            width: 70%;
+        }
+    }
+    .qualification-content{
+        height: 50vh;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 265%;
+        left: 0;
+        transition: 0.5s;
+        box-shadow: 0px 5px 10px 10px rgba(90, 116, 148, 0.3);
+        .Q-content{
+            gap: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 988px) {
+    .about{
+        .grid{
+            display: contents;
+            justify-content: center;
+            align-items: center;
+            .about-data{
+                margin-top: 20%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .about-data{
+        height: 70vh;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+        .about-discription{
+            margin-top: 5rem;
+            display: inline-flex;
+            padding: 2rem;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            margin-left: 3%;
+            margin-top: -1rem;
+        }
+        .btn-2{
+            margin-left: 3%;
+            margin-top: 2rem;
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width: 470px) {
+    .about-info{
+        .about_box{
+            border-radius: 30px;
+            background-color: white;
+            width: 90%;
+            text-align: center;
+            padding: 3rem 4rem;
+            .About-title{
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 445px) {
+    .about{
+        min-height: 180vh;
+        .grid{
+            .about-data{
+               margin-top: 40%;
+            }
+        }
+    }
+}
+
+// responsive height
+@media screen and (max-height:  413px) {
+    .about{
+        height: 350vh;
+    }
+}
+
+@media screen and (max-width:  460px) {
+    .section{
+        .section-title{
+            font-size: 3rem;
+        }
+    }
+}

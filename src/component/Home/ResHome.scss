@@ -1,0 +1,222 @@
+
+@media screen and (max-width: 1191px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        height: 118vh;
+       .container{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         >div{
+            .topline{
+                margin-top: -5rem;
+                font-size: 8rem;
+            }
+            .typewritter{
+                margin-top: 1rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .photo{
+        position: absolute;
+        top: -3rem;
+        z-index: -1;
+      }
+    }
+    .home::before{
+        position: absolute;
+        content: ' ';
+        height: 600px;
+        width: 600px;
+        border-radius: 50%;
+        left: -10%;
+        top: 42%;
+        background: linear-gradient(45deg,#02055A,rgb(112, 112, 249));
+        z-index: -1;
+        animation: objects1 6s linear infinite;
+        
+    }
+    .home::after{
+        display: none;
+    }
+}
+@keyframes objects1 {
+    50%{
+        left: -20%;
+        
+    }
+}
+@media screen and (max-width: 957px) {
+    .home{
+        .container{
+            >div{
+                .topline{
+                    margin-top: 13%;
+                    font-size: 6rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 762px) {
+    .home{
+        .container{
+            >div{
+                .topline{
+                    margin-top: -20%;
+                    font-size: 6rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 680px) {
+    .home{
+        .container{
+            >div{
+                .topline{
+                    margin-top: 5%;
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .home{
+        height: 120vh;
+        .container{
+            margin-top: 50%;
+        }
+    }
+    .home::before{
+        position: absolute;
+        content: ' ';
+        height: 600px;
+        width: 600px;
+        border-radius: 50%;
+        left: -30%;
+        top: 60%;
+        background: linear-gradient(45deg,#02055A,rgb(112, 112, 249));
+        z-index: -1;
+        animation: objects12s 6s linear infinite;
+        
+    }
+    .photo{
+        margin-top: 5%;
+    }
+    @keyframes objects12s {
+        50%{
+            left: -35%;
+            
+        }
+    }
+}
+@media screen and (max-width: 505px) {
+    .home{
+        .container{
+            margin-top: 40%;
+            >div{
+                .topline{
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+    .home::before{
+        position: absolute;
+        content: ' ';
+        height: 600px;
+        width: 600px;
+        border-radius: 50%;
+        left: -80%;
+        top: 45%;
+        background: linear-gradient(45deg,#02055A,rgb(112, 112, 249));
+        z-index: -1;
+        animation: objects12s1 6s linear infinite;
+        
+    }
+    @keyframes objects12s1 {
+        50%{
+            left: -85%;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .home{
+        .container{
+            margin-top: 60%;
+            >div{
+                width: 100%;
+                //background-color: aqua;
+                margin-left: -10%;
+                .topline{
+                    font-size: 2.5rem;
+                }
+            }
+            .typewritter{
+                letter-spacing: normal;
+                font-size: 1px;
+            }
+        }
+    }
+    .home::before{
+        position: absolute;
+        content: ' ';
+        height: 600px;
+        width: 600px;
+        border-radius: 50%;
+        left: -90%;
+        top: 53%;
+        background: linear-gradient(45deg,#02055A,rgb(112, 112, 249));
+        z-index: -1;
+        animation: objects12s12 6s linear infinite;
+        
+    }
+    .photo{
+        margin-top: 5%;
+    }
+    @keyframes objects12s12 {
+        50%{
+            left: -95%;
+            
+        }
+    }
+}
+
+
+    // responsive height
+@media screen and (max-height:  413px) {
+    .home{
+        height: 250vh;
+        //background-color: aqua;
+        .container{
+            >div{
+                .topline{
+                    margin-top: -10%;
+                }
+            }
+        }    
+    }
+    .home::before{
+        position: absolute;
+        content: ' ';
+        height: 600px;
+        width: 600px;
+        border-radius: 50%;
+        left: -30%;
+        top: 85%;
+        background: linear-gradient(45deg,#02055A,rgb(112, 112, 249));
+        z-index: -1;
+        animation: objects12s 6s linear infinite;
+        
+    }
+    .photo{
+        margin-top: 4rem;
+    }
+}

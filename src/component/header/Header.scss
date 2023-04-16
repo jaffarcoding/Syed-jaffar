@@ -1,0 +1,62 @@
+header{
+    background-color:  #FAFAFA;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .logo{
+            font-size: 2rem;
+            padding: 2.2rem;
+            >h1{
+                text-shadow: 0.060em 0.060em 0 rgb(172, 172, 226),0.060em 0.060em 0 blue,0.060em 0.060em 0 red,0.060em 0.060em 0 black;
+            }
+        }
+        .nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            margin-left: 8rem;
+
+            .nav-item{
+                display: flex;
+                gap: 7rem;
+                margin-right: 5rem;
+                margin-left: -10rem;
+                a{
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                    color: black;
+                    transition: all 0.8s;
+                    &:hover{
+                        cursor: pointer;
+                        color: #223BC9;
+                        border-bottom: 1px solid #223BC9;
+                    }
+                }
+            }
+            >a > button{
+                margin-left: 90%;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: none;
+                height: 50px;
+                width:  10rem;
+                border-radius: 10px;
+                border: 1px solid rgb(118, 118, 118);
+                transition: all 0.5s;
+                 text-decoration: none;
+                    font-size: 1.8rem;
+                    color: rgb(61, 60, 60);
+                    font-weight: 100;
+                    transition: all 0.5s;
+                    &:hover{
+                       color: white;
+                    background-color: #1a1f82; 
+                    }
+            }
+        }
+}

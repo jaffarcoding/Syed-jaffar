@@ -1,0 +1,22 @@
+@media screen and (max-width: 984px) {
+    .skill-set{
+        height: 120vh;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 376px) {
+    .skill-set{
+        min-height: 120vh;
+    }
+}
+// responsive height
+@media screen and (max-height:  413px) {
+    .skill-set{
+        height: 250vh;
+    }
+}

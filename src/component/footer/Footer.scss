@@ -1,0 +1,49 @@
+.footer{
+    height: 10rem;
+    width: 100%;
+    background-color: white ;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(228, 220, 220);
+    flex-direction: column;
+    >h2{
+        margin-top: 1.2rem;
+        letter-spacing: 1px;
+        font-size: 1.9rem;
+    }
+    .nav-link-footers{
+        height: 40%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >span{
+            color: white;
+            text-decoration: none;
+            >a{
+                color: black;
+                text-decoration: none;
+                padding: 1.5rem;
+                font-size: 1.5rem;
+            
+                transition: all 0.5s;
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+    }
+    >p{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+}
+    >svg{
+        font-size: 2rem;
+        position: fixed;
+        bottom: 10rem;
+        left: 10%;
+    }
